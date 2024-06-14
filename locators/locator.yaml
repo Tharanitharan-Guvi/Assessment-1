@@ -1,0 +1,18 @@
+LoginPage:
+  username: '//*[@id="uid"]'
+  password: '//*[@id="pwd"]'
+  login_button: '//*[@id="login-button"]'
+navbar:
+  clients: "//a[@id='client-dropdown']"
+  accounting: "//a[@href='#/accounting']"
+  reports: "//a[@id='reports-menu']"
+  admin: "//a[@id='preview-menu']"
+
+clients_dropdown:
+  items: "//ul[@class='custom_navbar dropdown-menu']/li/a"
+
+reports_dropdown:
+  items: "//ul[@class='custom_navbar dropdown-menu']/li/a"
+
+admin_dropdown:
+  items: "//ul[@class='custom_navbar dropdown-menu']/li/a"
